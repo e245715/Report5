@@ -17,6 +17,7 @@ class Report5 {
 
         }catch(NullPointerException e){
             //NullPointerExceptionが起きた時の処理
+            System.out.println("NullPointerExceptionが発生した");
             System.out.println(e.getMessage());
 
 
